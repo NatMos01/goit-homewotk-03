@@ -30,8 +30,10 @@ ol {
 	padding-left: 0;
 }
 
-img {
+.img {
 	display: block;
+	max-width: 100%;
+	height: auto;
 }
 .conteiner {
 	width: 1158px;
@@ -57,10 +59,6 @@ img {
 }
 li {
 	list-style: none;
-}
-.img {
-	max-width: 100%;
-	height: auto;
 }
 .link,
 .logo-primary,
@@ -124,7 +122,7 @@ li {
 	color: var(--primary-links-color);
 }
 .header-address {
-	color: var(--title-text-color);
+	color: var(--primary-links-color);
 	font-style: normal;
 }
 .header-address:hover,
@@ -251,17 +249,16 @@ li {
 	color: var(--primary-text-color);
 }
 .footer {
+	padding: 100px 0;
 	background-color: var(--primary-background-color);
 }
 .logo-primary-footer {
-	padding-top: 100px;
 	margin-bottom: 16px;
 }
 .logo-secondary-footer {
 	color: #f4f4fd;
 }
 .footer-info {
-	padding-bottom: 100px;
 	width: 264px;
 	color: #e7e9fc;
 }
