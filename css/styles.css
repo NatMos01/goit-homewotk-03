@@ -281,7 +281,6 @@ li {
 	flex-wrap: wrap;
 	display: flex;
 	gap: 48px 24px;
-	min-width: 360px;
 }
 .li-title-cover {
 	display: flex;
